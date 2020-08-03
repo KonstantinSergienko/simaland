@@ -1,0 +1,18 @@
+.input-wrapper {
+  position: relative;
+}
+
+.text-input_password {
+  padding-right: 38px;
+}
+
+.eye-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../../pics/eye.png");
+}
