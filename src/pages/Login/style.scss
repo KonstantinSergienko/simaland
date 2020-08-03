@@ -1,0 +1,30 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 60px;
+  border: 1.5px solid purple;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.login-form__label {
+  font-weight: bold;
+  margin: 10px;
+}
+
+.submit-button {
+  margin-top: 20px;
+  width: 160px;
+  align-self: center;
+  border: 1px solid purple;
+  border-radius: 5px;
+  background: transparent;
+  padding: 5px 0;
+}
+
+.tooltip {
+  color: red;
+  padding: 10px 20px;
+  font-size: 14px;
+}

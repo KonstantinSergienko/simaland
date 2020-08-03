@@ -1,0 +1,17 @@
+.gallery__header {
+  font-weight: bold;
+  font-size: 24px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.gallery__pictures-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.gallery__picture {
+  max-width: 300px;
+}

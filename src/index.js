@@ -3,13 +3,14 @@ import { render } from "react-dom";
 import { Provider } from "react-redux";
 import { Router } from "react-router";
 import { syncHistoryWithStore } from "react-router-redux";
-import { createBrowserHistory } from "history";
 
 import App from "./App";
 
 import store from "./store";
+import { browserHistory } from "./utils/history";
 
-const browserHistory = createBrowserHistory();
+import "./utils/mock";
+
 const history = syncHistoryWithStore(browserHistory, store);
 
 render(
